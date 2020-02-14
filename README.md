@@ -1,4 +1,4 @@
-# GTC2020 TrainingData.io Repo
+# GTC2020 Workshop TrainingData.io Repo
 
 This repos contains sample project for AI-Assited Labeling for Radiology AI using NVIDIA Clara on TrainingData.io
 
@@ -39,8 +39,7 @@ export DB_MOUNT=/path/to/temp/directory && export IMAGE_MOUNT=/path/to/image/dir
 curl -X PUT "http://0.0.0.0:5000/admin/model/segmentation_ct_liver_and_tumor"   -H "accept: application/json" -H "Content-Type: application/json" -d '{"path":"nvidia/med/segmentation_ct_liver_and_tumor","version":"1"}'
 
 ## 8. Open Webbrower: https://app.trainingdata.io/v1/td/login
-Login with user: bgenereaux@nvidia.com
-           pass: p@$$12345
+Login with oAuth or username & password
 
 ## 9. Start AI-Assisted Labeling
       On tab “Labeling Jobs” select “On-Premises Labeling Job”
