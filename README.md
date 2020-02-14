@@ -47,6 +47,12 @@ Login with user: bgenereaux@nvidia.com
       Click “Start Labeling”
       Observe http://127.0.0.1 loads in web-browser
 
+## Optional (3D Slicer):
+   - Download 3D Slicer: https://trainingdataio.s3.amazonaws.com/SlicerLatest-TDIO-GTC2020Workshop.tgz
+   - Extract and open Slicer executable
+   - Setup /workspace/content/slicer-plugin as module in Slicer
+   - Open the labeling project in "Open in 3D Slicer"
+   
 # Additional Information
 [Manage On-Premises TrainingData Labeling](https://docs.trainingdata.io/v1.0/Premises%20Infrastructure/Docker%20And%20VPN/)
 
